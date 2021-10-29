@@ -1,0 +1,63 @@
+.single-image > img{
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+
+.container-image-text{
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  text-align: right;
+  color: white;
+}
+
+.single-image{
+  position: absolute;
+  opacity: 0;
+  width: 100%;
+}
+
+.container-image{
+  position: relative;
+  height: 600px;
+}
+
+.container-image-right img{
+  width: 100%;
+  object-fit: cover;
+  height: 120px;
+  opacity: 0.5;
+}
+
+.container-image-right {
+  position: relative;
+}
+
+.arrow-container{
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  bottom: 0;
+  left: 50%;
+  transform: translatex(-50%);
+}
+
+.arrow-background{
+  background-color: lightgray;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  margin: 10px;
+}
+
+.container .active{
+  opacity: 1;
+}
+
+
+
+
