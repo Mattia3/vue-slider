@@ -52,8 +52,6 @@ const vueApp = new Vue ({
     setInterval(() => {
       this.arrowAdd()
     }, 2000);
-    
-    }
   }
 })
 
